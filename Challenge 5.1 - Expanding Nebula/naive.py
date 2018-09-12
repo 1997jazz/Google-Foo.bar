@@ -1,5 +1,5 @@
 # simple brute force method with dynamic programming
-# passes all tests in time except for column length of 9 (!!!)
+# 50 by 9 grid of all True takes about 40 seconds
 
 def is_true(m,i):
     return sum((m[0][i],m[1][i],m[0][i+1],m[1][i+1])) == 1
