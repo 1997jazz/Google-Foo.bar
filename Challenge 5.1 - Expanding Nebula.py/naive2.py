@@ -1,4 +1,4 @@
-# added another dp element when choosing first 2 columns
+# added another dp element when choosing first 2 columns 
 
 def is_true(m,i):
     return sum((m[0][i],m[1][i],m[0][i+1],m[1][i+1])) == 1
